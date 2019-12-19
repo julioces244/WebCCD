@@ -14,13 +14,15 @@ class ProjectsTableSeeder extends Seeder
       DB::table('projects')->insert([
           'name' => 'Programa de Competitividad de Ancash',
           'description' => 'Programa de desarrollo en el departamento de Ancash',
-          'year_id' => '1'
+          'year_id' => '1',
+          'image' => 'pcalogo.png'
       ]);
 
       DB::table('projects')->insert([
           'name' => 'Programa Talento Pisco',
           'description' => 'Programa de formación educativa secundaria en la provincia de Pisco',
-          'year_id' => '1'
+          'year_id' => '1',
+          'image' => 'TalentoPiscoLogo.png'
       ]);
 
 

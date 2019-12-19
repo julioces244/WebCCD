@@ -25,7 +25,9 @@
             <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
             <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li>
           -->
-            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">Ingresar</a></li>
+          <!-- -->
+          <!--
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">Ingresar</a></li>-->
             <!--
             <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">Registrrarse</a></li>-->
           </ul>
@@ -83,6 +85,9 @@
             -->
             <li class="nav-item @@courses">
               <a class="nav-link" href="{{asset('experiencia')}}">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{asset('miespacio')}}">Mi espacio</a>
             </li>
             <li class="nav-item @@contact">
               <a class="nav-link" href="{{asset('contacto')}}">Contacto</a>

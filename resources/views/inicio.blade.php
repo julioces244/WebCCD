@@ -54,7 +54,6 @@
             <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
             <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li>
             -->
-            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">Ingresar</a></li>
             <!--
             <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">Registrarse</a></li>-->
           </ul>
@@ -118,6 +117,11 @@
             <li class="nav-item @@courses">
               <a class="nav-link" href="{{asset('experiencia')}}">Experiencia</a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="{{asset('miespacio')}}">Mi espacio</a>
+            </li>
+
             <li class="nav-item @@contact">
               <a class="nav-link" href="{{asset('contacto')}}">Contacto</a>
             </li>
@@ -238,7 +242,7 @@
           <i class="ti-control-play"></i>
         </a>-->
 
-            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Ver más</a>
+            <a href="{{asset('servicios')}}" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Ver más</a>
 
           </div>
         </div>
@@ -254,7 +258,7 @@
             <h1 class="text-white" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Fomentando el desarrollo en los lugares más alejados</h1>
             <p class="text-muted mb-4" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".4">El centro para la Competitividad y el Desarrollo (CCD) es una institución cuyo fin es promover el desarrollo sostenible
             del país en base al principio de la competitividad y de esta forma mejorar la calidad de vida de los ciudadanos.</p>
-            <a href="{{asset('contacto')}}" class="btn btn-primary" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".7">Ver más</a>
+            <a href="{{asset('servicios')}}" class="btn btn-primary" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".7">Ver más</a>
           </div>
         </div>
       </div>
@@ -269,7 +273,7 @@
             <h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Gestionando proyectos de desarrollo efectivamente</h1>
             <p class="text-muted mb-4" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".4">El centro para la Competitividad y el Desarrollo (CCD) es una institución cuyo fin es promover el desarrollo sostenible
             del país en base al principio de la competitividad y de esta forma mejorar la calidad de vida de los ciudadanos.</p>
-            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Ver más</a>
+            <a href="{{asset('servicios')}}" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Ver más</a>
           </div>
         </div>
       </div>
@@ -284,7 +288,7 @@
             <h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Llevando a cabo estudios económicos en el país</h1>
             <p class="text-muted mb-4" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".4">El centro para la Competitividad y el Desarrollo (CCD) es una institución cuyo fin es promover el desarrollo sostenible
             del país en base al principio de la competitividad y de esta forma mejorar la calidad de vida de los ciudadanos.</p>
-            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Ver más</a>
+            <a href="{{asset('servicios')}}" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Ver más</a>
           </div>
         </div>
       </div>
@@ -578,6 +582,7 @@
 
 
 <!-- teachers esta parte conforma el equipo de trabajo de cdd -->
+<!-- -->
 <section class="section">
   <div class="container">
     <div class="row justify-content-center">
@@ -585,24 +590,7 @@
         <h2 class="section-title">Nuestro equipo</h2>
       </div>
       <!-- teacher -->
-      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-        <div class="card border-0 rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="images/teachers/luis_carranza.jpg" alt="teacher">
-          <div class="card-body">
-            <a>
-              <h4 class="card-title">Luis Carranza Ugarte</h4>
-            </a>
-            <p>Ministro de Economía y Finanzas del Perú en dos oportunidades y considerado como el mejor Ministro de Economía de la región Latinoamericana por América Economía.
-            Director del Centro para la Competitividad y el Desarrollo, de la Escuela de Economía de la Universidad San Martin de Porres y de importantes empresas del país y del exterior.</p>
-            <ul class="list-inline">
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+
       <!-- teacher -->
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
         <div class="card border-0 rounded-0 hover-shadow">
@@ -623,17 +611,34 @@
           </div>
         </div>
       </div>
+
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/teachers/viviana_sanchez.jpg" alt="teacher" height=265px>
+          <div class="card-body">
+            <a>
+              <h4 class="card-title">Viviana Sánchez</h4>
+            </a>
+            <p>Abogada de la Pontificia Universidad Católica del Perú y Máster (LLM) de Georgetown University. Fellow del Institute of International Economic Law (IIEL) Washington D.C. Post Grado en las Universidad de Salamanca España, Universidad Adolfo Ibañez (Chile), UPC, ESAN, GERENS, International Law Institute Washington DC. Becaria Fullbright y PEO Scholarship. Ejerció docencia en la UPC y en la Universidad de Lima. Trabajó en el Ministerio de Economía y Finanzas, Instituto Nacional de Defensa de de la Competencia y de la Protección de la Propiedad Intelectual y la Universidad San Martín Porres. Realizó su SECIGRA en el Ministerio de Relaciones Exteriores.  Actualmente es abogada y directora de empresas privadas y asociaciones civiles. Estudiante de intercambio con AFS Finlandia Perú y miembro de la Asociación Civil ius et veritas. </p>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <!-- teacher -->
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
         <div class="card border-0 rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="{{asset('images/teachers/manuel_velarde.jpg')}}" alt="teacher">
+          <img class="card-img-top rounded-0" src="{{asset('images/teachers/sergio_villegas.jpg')}}" alt="teacher" height="270px">
           <div class="card-body">
             <a href="teacher-single.html">
-              <h4 class="card-title">Manuel Velarde</h4>
+              <h4 class="card-title">Sergio Villegas</h4>
             </a>
-            <p>Ex superintendente Nacional de la SUNAT y se ha desempeñado como director General de la oficina Jurídica del
-            Ministerio de Economía y Finanzas. Miembro del directorio de la Superintendencia del Mercado de Valores (ex Censase)
-            y negociador de la sección de servicios financieros en el TLC con los Estados Unidos.</p>
+            <p>Jefe de Proyectos del Centro para la Competitividad y el Desarrollo (CCD). MBA (ESAN) – Especialidad en Dirección Avanzada de Proyectos y Economista (UNMSM), con más de 30 años de experiencia profesional en los cargos de Jefe de Proyecto, Coordinador, Especialista e Investigador, en entidades públicas y privadas como Superintendencia del Mercado de Valores, Superintendencia de Banca, Seguros y AFP, ONPE, MEF, Municipalidades, Universidades, Ministerio de Cultura, Apoyo Consultoría S.A., entre otras. Posee experiencia en monitoreo y asistencia técnica en gestión de inversiones públicas dentro del marco del SNIP e Invierte.pe al gobierno nacional y los regionales y locales de proyectos de infraestructura de riego y productivos, fortalecimiento institucional, salud, saneamiento, educación universitaria y básica regular, patrimonio cultural y desarrollo urbano; así como, monitoreo y asistencia de la ejecución de proyectos bajo el mecanismo “Obras x Impuestos” y Asociación Público Privadas; clasificación de riesgo de inversiones; regulación y supervisión de fondos institucionales (pensiones y colectivos) así como a sus administradoras. Docente de los Programas de Maestría relacionados con la gestión de proyectos de inversión en las universidades: Universidad Nacional de San Cristóbal de Huamanga UUNSCH), EUCIM Business School y la Universidad San Martín de Porres (USMP), Pontificia Universidad Católica del Perú (PUCP), Universidad Nacional Federico Villarreal (UNFV) y Universidad Nacional Mayor de San Marcos (UNMSM).</p>
             <ul class="list-inline">
               <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
               <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
@@ -649,53 +654,9 @@
 
       <!-- teacher -->
       <br>
-      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-        <div class="card border-0 rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="images/teachers/viviana_sanchez.jpg" alt="teacher" height=265px>
-          <div class="card-body">
-            <a href="teacher-single.html">
-              <h4 class="card-title">Viviana Sánchez</h4>
-            </a>
-            <p>Experiencia laboral en la oficina jurídica del Ministerio de Economía y Finanzas. Sólida experiencia en la elaboración
-            y análisis legal del marco regulatorio en materia de inversiones, asociaciones público privadas, iniciativas privadas,
-            obras por impuestos y comercio exterior. Abogada de la Pontificia Universidad Católica del Perú (PUCP), con maestría (LLM)
-            en Georgetown University (EEUU) y post grados en la universidad de Salamanca (España), Universidad Adolfo Ibañez (Chile) , UPC,
-            ESAN y GERENS (Perú).
-            </p>
-            <br>
-            <br>
-            <br>
-            <ul class="list-inline">
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+
       <!-- teacher -->
-      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-        <div class="card border-0 rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="{{asset('images/teachers/sergio_villegas.jpg')}}" alt="teacher">
-          <div class="card-body">
-            <a href="teacher-single.html">
-              <h4 class="card-title">Sergio Villegas</h4>
-            </a>
-            <p>Experiencia en monitoreo y asistencia técnica en gestión de inversiones públicas dentro del marco SNP e Invierte.pe al
-            gobierno nacional, gobiernos regionales y locales; así como en la clasificación de riesgo de inversiones, regulación y supervisión,
-            de fondos institucionales y administradoras. Jefe de Proyecto en la formulación de 79 estudios de preinversión de proyectos de
-            infraestructura de riego y productivos, fortalecimiento institucional, salud, saneamiento, educación universitaria básica y regular,
-            patrimonio cultural y desarrollo urbano.</p>
-            <ul class="list-inline">
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
-              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+
     </div>
   </div>
 </section>
@@ -863,29 +824,7 @@
     </div>
   </div>
   <!-- copyright -->
-  <div class="copyright py-4 bg-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-7 text-sm-left text-center">
-         <ul>
-          <p class="mb-0 letra">Copyright
-            <script>
-              var CurrentYear = new Date().getFullYear()
-              document.write(CurrentYear)
-            </script>
-            © Theme By <a href="https://themefisher.com">themefisher.com</a></p></ul> <ul><p class="letra">. All Rights Reserved.</p> </ul>
-        </div>
-        <div class="col-sm-5 text-sm-right text-center">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/themefisher"><i class="ti-facebook text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.twitter.com/themefisher"><i class="ti-twitter-alt text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://dribbble.com/themefisher"><i class="ti-dribbble text-primary"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+
 </footer>
 <!-- /footer -->
 

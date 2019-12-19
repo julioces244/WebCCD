@@ -81,6 +81,9 @@
             <li class="nav-item @@courses">
               <a class="nav-link" href="{{asset('experiencia')}}">Experiencia</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{asset('miespacio')}}">Mi espacio</a>
+            </li>
             <li class="nav-item @@contact">
               <a class="nav-link" href="{{asset('contacto')}}">Contacto</a>
             </li>

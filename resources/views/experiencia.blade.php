@@ -81,8 +81,12 @@
             <li class="nav-item @@courses">
               <a class="nav-link" href="{{asset('servicios')}}">Servicios</a>
             </li>
-            <li class="nav-item @@courses">
+            <li class="nav-item active">
               <a class="nav-link" href="{{asset('experiencia')}}">Experiencia</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="{{asset('miespacio')}}">Mi espacio</a>
             </li>
 
             <li class="nav-item @@contact">
@@ -181,7 +185,7 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="courses.html">Experiencia</a></li>
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="{{asset('experiencia')}}">Experiencia</a></li>
           <!-- -->
           <li class="list-inline-item text-white h3 font-secondary nasted">Nacional e Internacional</li>
         </ul>
@@ -221,11 +225,7 @@
     <div class="row">
       <div class="col-12 mb-4">
         <h3>Sobre el servicio</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.</p>
+        <p>Poner algo referido a la experiencia nacional.</p>
       </div><!--
       <div class="col-12 mb-4">
         <h3 class="mb-3">Elaboración de planes de competitividad</h3>
@@ -295,11 +295,7 @@
     <div class="row">
       <div class="col-12 mb-4">
         <h3>Sobre el servicio</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.</p>
+        <p>Poner algo referido a la experiencia internacional.</p>
       </div>
 
     </div>
@@ -364,30 +360,7 @@
       </div>
     </div>
   </div>
-  <!-- copyright -->
-  <div class="copyright py-4 bg-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-7 text-sm-left text-center">
-          <ul>
-          <p class="mb-0 letra">Copyright
-            <script>
-              var CurrentYear = new Date().getFullYear()
-              document.write(CurrentYear)
-            </script>
-            © Theme By <a href="https://themefisher.com">themefisher.com</a></p></ul> <ul><p class="letra">. All Rights Reserved.</p> </ul>
-        </div>
-        <div class="col-sm-5 text-sm-right text-center">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/themefisher"><i class="ti-facebook text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.twitter.com/themefisher"><i class="ti-twitter-alt text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://dribbble.com/themefisher"><i class="ti-dribbble text-primary"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+
 </footer>
 <!-- /footer -->
 

@@ -54,15 +54,22 @@ Route::get('/servicios', function () {
           return view('servicio_tech');
       });
 
+
 Route::get('/experiencia', function () {
           return view('experiencia');
+});
+
+Route::get('/miespacio', function () {
+          return view('login');
 });
 
 Route::get('/contacto', function () {
           return view('contacto');
 });
 
-Route::post('/intranet', 'Auth\LoginController@authenticate');
+
+
+Route::post('/intranet', 'Auth\LoginController@authenticate')->name('intranet');
 
 Route::get('/intranet', 'DocumentController@showYears');
 Route::get('/intranet/{name}', 'DocumentController@showProjects');

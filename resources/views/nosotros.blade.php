@@ -57,8 +57,7 @@
             <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
             <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li>
             -->
-            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">Ingresar</a></li>
-            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">Registrarse</a></li>
+
           </ul>
         </div>
       </div>
@@ -112,6 +111,11 @@
             <li class="nav-item @@courses">
               <a class="nav-link" href="{{asset('experiencia')}}">Experiencia</a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="{{asset('miespacio')}}">Mi espacio</a>
+            </li>
+
             <li class="nav-item @@contact">
               <a class="nav-link" href="{{asset('contacto')}}">Contacto</a>
             </li>
@@ -310,29 +314,8 @@
         <div class="col-12">
           <h2 class="section-title">Nuestro Equipo</h2>
         </div>
-        <!-- teacher -->
-        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-          <div class="card border-0 rounded-0 hover-shadow">
-            <img class="card-img-top rounded-0" src="images/teachers/luis_carranza.jpg" alt="teacher">
-            <div class="card-body">
-              <a>
-                <h4 class="card-title">Luis Carranza Ugarte</h4>
-              </a>
-              <!--<div class="d-flex justify-content-between"> -->
 
-                <p>Ministro de Economía y Finanzas del Perú en dos oportunidades y considerado como el mejor Ministro de Economía de la región Latinoamericana por América Economía.
-                Director del Centro para la Competitividad y el Desarrollo, de la Escuela de Economía de la Universidad San Martin de Porres y de importantes empresas del país y del exterior.</p>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
-                </ul>
 
-            </div>
-          </div>
-        </div>
-        <!-- teacher -->
         <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
           <div class="card border-0 rounded-0 hover-shadow">
             <img class="card-img-top rounded-0" src="images/teachers/rudy_laguna.jpg" alt="teacher">
@@ -354,13 +337,37 @@
             </div>
           </div>
         </div>
+        <!-- teacher -->
+        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div class="card border-0 rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/teachers/viviana_sanchez.jpg" alt="teacher" height="260px">
+            <div class="card-body">
+              <a>
+                <h4 class="card-title">Viviana Sanchez</h4>
+              </a>
+              <!--<div class="d-flex justify-content-between"> -->
+
+                <p>Ministro de Economía y Finanzas del Perú en dos oportunidades y considerado como el mejor Ministro de Economía de la región Latinoamericana por América Economía.
+                Director del Centro para la Competitividad y el Desarrollo, de la Escuela de Economía de la Universidad San Martin de Porres y de importantes empresas del país y del exterior.</p>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+                </ul>
+
+            </div>
+          </div>
+        </div>
+        <!-- teacher -->
+
         <!-- teacher etiqueta <a> teacher-single.html-->
         <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
           <div class="card border-0 rounded-0 hover-shadow">
-            <img class="card-img-top rounded-0" src="images/teachers/manuel_velarde.jpg" alt="teacher">
+            <img class="card-img-top rounded-0" src="images/teachers/sergio_villegas.jpg" alt="teacher"  height="260px">
             <div class="card-body">
               <a>
-                <h4 class="card-title">Manuel Velarde</h4>
+                <h4 class="card-title">Sergio Villegas</h4>
               </a>
               <div class="justify-content-between">
                 <p>Ex superintendente Nacional de la SUNAT y se ha desempeñado como director General de la oficina Jurídica del
@@ -458,29 +465,7 @@
     </div>
   </div>
   <!-- copyright -->
-  <div class="copyright py-4 bg-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-7 text-sm-left text-center">
-          <ul>
-          <p class="mb-0 letra">Copyright
-            <script>
-              var CurrentYear = new Date().getFullYear()
-              document.write(CurrentYear)
-            </script>
-            © Theme By <a href="https://themefisher.com">themefisher.com</a></p></ul> <ul><p class="letra">. All Rights Reserved.</p> </ul>
-        </div>
-        <div class="col-sm-5 text-sm-right text-center">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/themefisher"><i class="ti-facebook text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.twitter.com/themefisher"><i class="ti-twitter-alt text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://dribbble.com/themefisher"><i class="ti-dribbble text-primary"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+
 </footer>
 <!-- /footer -->
 
