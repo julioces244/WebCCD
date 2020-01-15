@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Educenter</title>
+  <title>Centro para la Competitividad y el Desarrollo</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,10 +25,19 @@
 
   <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{asset('css/imagetext.css')}}">
 
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <style>
+        .dot {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      display: inline-block;
+      }
+  </style>
 
 </head>
 
@@ -42,7 +51,7 @@
     <div class="container">
       <div class="row no-gutters">
         <div class="col-lg-4 text-center text-lg-left">
-          <a class="text-color mr-3" href="callto:+443003030266"><strong>Teléfono</strong> 241-4273</a>
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>Teléfono</strong>241-4273</a>
           <ul class="list-inline d-inline">
             <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
             <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
@@ -53,8 +62,6 @@
         <div class="col-lg-8 text-center text-lg-right">
           <ul class="list-inline">
 
-            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">Ingresar</a></li>
-            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">Registrarse</a></li>
           </ul>
         </div>
       </div>
@@ -64,7 +71,7 @@
   <div class="navigation w-100">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light p-0">
-        <a class="navbar-brand" href="index.html"><img class="imgnav" src="images/banner/logoccd.png" alt="logo" height="50px" width="80%"></a>
+        <a class="navbar-brand" href="{{asset('inicio')}}"><img class="imgnav" src="images/banner/logoccd.png" alt="logo" height="50px" width="80%"></a>
         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -216,8 +223,76 @@
 
     <div class="row">
       <div class="col-12 mb-4">
-        <!-- course thumb -->
-        <img src="images/experience/img_nacional3.jpg" class="img-fluid w-100">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-9">
+
+                <figure class="snip0015">
+                  <img src="{{asset('images/images/img_mapnac2.jpg')}}" class="img-fluid w-100">
+                	<figcaption>
+                    <h2 style="color:#890524; font-size:30px">"Centro Para la Competitividad y el Desarrollo"</h2>
+                		<h2><span></span></h2>
+                		<p style="color:#fff; font-size:30px">"Los mejores profesionales se encuentran aquí."</p>
+                		<a></a>
+                	</figcaption>
+                </figure>
+
+
+
+              </div>
+              <div class="col-3">
+
+                <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col"><span class="dot" style="background-color: #890524;"></span></th>
+      <th scope="col">Experiencia de profesionales</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><span class="dot" style="background-color: #7A2599;"></span></th>
+      <td>Competitividad y Desarrollo</td>
+
+    </tr>
+    <tr>
+      <th scope="row"><span class="dot" style="background-color: #C00000;"></span></th>
+      <td>Política y Gestión Pública</td>
+
+    </tr>
+    <tr>
+      <th scope="row"><span class="dot" style="background-color: #00B050;"></span></th>
+      <td>Estudios Económicos</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row"><span class="dot" style="background-color: #E46C0A;"></span></th>
+      <td>Inversiones</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row"><span class="dot" style="background-color: #0070C0;"></span></th>
+      <td>Legal</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row"><span class="dot" style="background-color: #31859C;"></span></th>
+      <td>CCD Tech</td>
+
+    </tr>
+  </tbody>
+</table>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
     </div>
 
@@ -286,8 +361,78 @@
     </div>
     <div class="row">
       <div class="col-12 mb-4">
-        <!-- course thumb -->
-        <img src="images/experience/img_inter2.jpg" class="img-fluid w-100">
+
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-9">
+
+                <figure class="snip0015">
+                  <img src="{{asset('images/images/img_mapinter2.jpg')}}" class="img-fluid w-100">
+                	<figcaption>
+                    <h2 style="color:#890524; font-size:30px">"Centro Para la Competitividad y el Desarrollo"</h2>
+                		<h2><span></span></h2>
+                		<p style="color:#fff; font-size:30px">"Los mejores profesionales se encuentran aquí."</p>
+                		<a href="#"></a>
+                	</figcaption>
+                </figure>
+
+
+
+              </div>
+              <div class="col-3">
+
+                <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col"><span class="dot" style="background-color: #890524;"></span></th>
+      <th scope="col">Experiencia de profesionales</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><span class="dot" style="background-color: #7A2599;"></span></th>
+      <td>Competitividad y Desarrollo</td>
+
+    </tr>
+    <tr>
+      <th scope="row"><span class="dot" style="background-color: #C00000;"></span></th>
+      <td>Política y Gestión Pública</td>
+
+    </tr>
+    <tr>
+      <th scope="row"><span class="dot" style="background-color: #00B050;"></span></th>
+      <td>Estudios Económicos</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row"><span class="dot" style="background-color: #E46C0A;"></span></th>
+      <td>Inversiones</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row"><span class="dot" style="background-color: #0070C0;"></span></th>
+      <td>Legal</td>
+
+    </tr>
+
+    <tr>
+      <th scope="row"><span class="dot" style="background-color: #31859C;"></span></th>
+      <td>CCD Tech</td>
+
+    </tr>
+  </tbody>
+</table>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </div>
 

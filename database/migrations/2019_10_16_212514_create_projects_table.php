@@ -17,7 +17,7 @@ class CreateProjectsTable extends Migration
             $table->engine = 'InnoDB';
             $table->bigIncrements('idProject');
             $table->string('name')->unique();
-            $table->string('description');
+            $table->string('description',500)->nullable();
             $table->string('image');
             $table->timestamps();
         });

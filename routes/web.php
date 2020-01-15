@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/inicio', function () {
     return view('inicio');
-});
+})->name('inicio');
 
 Route::get('/nosotros', function () {
     return view('nosotros');
@@ -70,8 +70,15 @@ Route::get('/contacto', function () {
 
 
 Route::post('/intranet', 'Auth\LoginController@authenticate')->name('intranet');
+//Route::post('/intranet', 'UserController@authenticate')->name('intranet');
 
-Route::get('/intranet', 'DocumentController@showYears');
-Route::get('/intranet/{name}', 'DocumentController@showProjects');
-Route::get('/intranet/{name}/{abb_project}', 'DocumentController@showTypeDocuments');
-Route::get('/intranet/{name}/{abb_project}/{nametype}', 'DocumentController@showDocuments');
+Route::group(['middleware' => ['jwt.verify']], function() {
+       /*AÑADE AQUI LAS RUTAS QUE QUIERAS PROTEGER CON JWT*/
+ });
+
+Route::get('/logout', 'Auth\LoginController@logout');
+
+Route::get('/intranet', 'DocumentController@showYears')->middleware('auth');
+Route::get('/intranet/{name}', 'DocumentController@showProjects')->middleware('auth');
+Route::get('/intranet/{name}/{abb_project}', 'DocumentController@showTypeDocuments')->middleware('auth');
+Route::get('/intranet/{name}/{abb_project}/{nametype}', 'DocumentController@showDocuments')->middleware('auth');

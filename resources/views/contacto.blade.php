@@ -68,7 +68,7 @@
   <div class="navigation w-100">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light p-0">
-        <a class="navbar-brand" href="index.html"><img src="images/banner/logoccd.png" alt="logo" height="50px" width="70%"></a>
+        <a class="navbar-brand" href="{{asset('inicio')}}"><img src="images/banner/logoccd.png" alt="logo" height="50px" width="70%"></a>
         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

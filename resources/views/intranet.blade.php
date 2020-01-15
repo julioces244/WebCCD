@@ -3,18 +3,20 @@
 @section('content')
 
   <div id="my-sidebar-context" class="widget-sidebar-context">
-      <header id="this-header" class="navbar justify-content-start align-items-center  page-header">
+      <header id="this-header" class="navbar justify-content-start  align-items-center  page-header">
 
 
 
 
           <a href="#" class="navbar-toggler widget-sidebar-toggler">
-              <i class="fas fa-bars"></i>
+              <i> <img src="{{asset('images/logos/ic_menu2.png')}}"  alt="" height="30px" width="auto"> </i>
+
+
           </a>
 
           <center>
-            <a class="navbar-brand" href="#">
-              <img src="{{asset('images/banner/logoccd.png')}}" alt="" width="300px" height= relative>
+            <a class="">
+              <img src="{{asset('images/banner/logoccd.png')}}" alt="" width="320px" height= relative style="margin-top:15px; margin-bottom:15px;">
             </a>
           </center>
 
@@ -31,11 +33,11 @@
                   </li>
                   <li class="active">
                       <a href="intranet">
-                          <i class="fas fa-pencil-alt"></i><span> Documentos </span>
+                          <i class="fas fa-pencil-alt"></i><span> Estadísticas (Proceso) </span>
                       </a>
                   </li>
                   <li class="active">
-                      <a href="./">
+                      <a href="/logout">
                           <img src="../images/logos/ic_logout.png" style="width:25px; height:25px; margin-right:5px;"></i><span>Salir</span>
                       </a>
                   </li>
@@ -58,42 +60,31 @@
               </ul>
           </nav>
 
+<!--
+          <div class="page-main border-top">-->
+
+
 
           <div class="page-main">
-            <center><div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                      <br>
-                        <h3 style="color:#fff; margin-bottom:30px;">Documentación</h3>
 
-                    </div>
-                </div>
-            </div></center>
 
-              <div class="container">
+<h1>{{$user->group->name}}</h1>
 
-                <p class="o"><a class="unico" href="">Año</a></p>
 
-                @foreach($years as $year)
-              <form class="" action="/intranet/{{$year->idYear}}" method="post">
+            @switch($user->group->name)
+              @case('Municipalidad Provincial de Cotabambas - Tambobamba')
+                  @include('includes.tambobamba')
+                  @break
+              @case('CCD')
+                  @include('includes.ccd')
+                  @break
+            @endswitch
 
-                <div class="card" style="color:#890524; margin-top:50px;">
-                  <div class="card-header" style="background-color: black;">
-                    {{$year->name}}
-                  </div>
-                  <div class="card-body">
-                    <blockquote class="blockquote mb-0">
-                      <p>Proyectos correspondientes al año {{$year->name}}</p>
-                      <a href="/intranet/{{$year->name}}" class="btn btn-outline-info" value="">Entrar</a>
-                    </blockquote>
-                  </div>
-                </div>
 
-              </form>
-              @endforeach
-
-              </div>
           </div>
+<!-- </div> -->
+
+
 
       </div>
 @endsection

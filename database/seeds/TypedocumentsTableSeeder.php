@@ -12,20 +12,20 @@ class TypedocumentsTableSeeder extends Seeder
     public function run()
     {
       DB::table('typedocuments')->insert([
-          'name' => 'Propuestas',
-          'description' => 'Propuestas PCA',
+          'name' => 'Documentos',
+          'description' => 'Documentos en formato PDF, Excel, Word, PowerPoint',
           'project_id' => '1'
       ]);
 
       DB::table('typedocuments')->insert([
-          'name' => 'Protocolos',
-          'description' => 'Protocolos PCA',
+          'name' => 'Imágenes',
+          'description' => 'Archivos de imágenes en formato PNG, JPG, JPEG',
           'project_id' => '1'
       ]);
 
       DB::table('typedocuments')->insert([
-          'name' => 'Entregables',
-          'description' => 'Entregables PCA',
+          'name' => 'Videos',
+          'description' => 'Archivos de video en formato MP4',
           'project_id' => '1'
       ]);
     }

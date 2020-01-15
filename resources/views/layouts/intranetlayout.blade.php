@@ -12,10 +12,19 @@
   <!--    <link rel="stylesheet" href="css/style.css">-->
   <link rel="stylesheet" href="{{asset('libs/simplesidebar/simplesidebar.css')}}">
   <link rel="stylesheet" href="{{asset('css/link.css')}}">
+  <link rel="stylesheet" href="{{asset('css/intrastyle.css')}}">
+  <link rel="stylesheet" href="{{asset('css/imagehover.css')}}">
+  <link rel="stylesheet" href="{{asset('css/imageside.css')}}">
+  <link rel="stylesheet" href="{{asset('css/imageon.css')}}">
+  <link rel="stylesheet" href="{{asset('css/imagecircle.css')}}">
+  <link rel="stylesheet" href="{{asset('css/imagecircle.css')}}">
+  <link rel="stylesheet" href="{{asset('css/imageletteron.css')}}">
+  <link rel="stylesheet" href="{{asset('css/imagegrid.css')}}">
 
 
 
-  <title>Simple Sidebar Demo</title>
+
+  <title>Intranet CCD</title>
   </head>
   <body>
 
@@ -40,6 +49,7 @@
       crossorigin="anonymous"></script>
 
 <script src="{{asset('libs/simplesidebar/simplesidebar.js')}}"></script>
+<script src="{{asset('js/imagehover.js')}}"></script>
 
 
 <script>

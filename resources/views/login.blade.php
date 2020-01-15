@@ -226,21 +226,27 @@
 
 <!-- hero slider -->
 
-
 <section class="section">
-<div class="container">
+  <div class="container">
+
+
 
   <section class="section">
+
+    <div class="card" style="width: 60%; height: auto; margin-left: auto;
+  margin-right: auto;">
+      <div class="card-body">
     <div class="container">
-      <form class="form-group" action="{{route('intranet')}}">
+      <form class="form-group" action="{{route('intranet')}}" method="post">
+        @csrf
       <div class="form-group">
         <label for="exampleInputEmail1">Usuario</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su usuario">
-        <small id="emailHelp" class="form-text text-muted">Nosotros nunca compartiremos tu correo.</small>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su usuario" name="email">
+        <small id="emailHelp" class="form-text text-muted">Nosotros nunca compartiremos tu usuario.</small>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Contraseña</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su contraseña">
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su contraseña" name="password">
       </div>
       <div class="form-group form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -249,11 +255,15 @@
       <button type="submit" class="btn btn-primary" >Ingresar</button>
     </form>
     </div>
+
+  </div>
+</div>
+
   </section>
 
 
 
-</div>
+  </div>
 </section>
 
 <!-- teachers esta parte conforma el equipo de trabajo de cdd -->

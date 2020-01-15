@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Educenter</title>
+  <title>Centro para la Competitividad y el Desarrollo</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -587,7 +587,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12">
-        <h2 class="section-title">Nuestro equipo</h2>
+        <h2 class="section-title">Nuestra gente</h2>
       </div>
       <!-- teacher -->
 
@@ -599,9 +599,7 @@
             <a href="teacher-single.html">
               <h4 class="card-title">Rudy Laguna</h4>
             </a>
-            <p>Ex superintendente Nacional de la SUNAT y se ha desempeñado como director General de la oficina Jurídica del
-            Ministerio de Economía y Finanzas. Miembro del directorio de la Superintendencia del Mercado de Valores (ex Censase)
-            y negociador de la sección de servicios financieros en el TLC con los Estados Unidos.</p>
+            <p>Director del Centro para la Competitividad y el Desarrollo (CCD). Ha sido director de Electro Sur Este, presidente del Comité Pro Conectividad (energía y telecomunicaciones) de PROINVERSIÓN, consultor del Ministerio de Economía y Finanzas (MEF) y co-líder en proyectos de investigación en tributación y política fiscal para países de América Latina por el Banco Interamericano de Desarrollo (BID). Docente en los cursos Economía Pública y Recursos Naturales en la Universidad de San Martín de Porres (USMP), Mercado y Regulación de Petróleo de la Maestría en Regulación en la Universidad Peruana de Ciencias Aplicadas (UPC) y Econometría  en la Universidad Nacional de Ingeniería (UNI). Ingeniero economista por la UNI, con máster en tributación y política fiscal por la Universidad Autónoma de Madrid de España y la Universidad de Lima.</p>
             <ul class="list-inline">
               <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
               <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
@@ -638,7 +636,9 @@
             <a href="teacher-single.html">
               <h4 class="card-title">Sergio Villegas</h4>
             </a>
-            <p>Jefe de Proyectos del Centro para la Competitividad y el Desarrollo (CCD). MBA (ESAN) – Especialidad en Dirección Avanzada de Proyectos y Economista (UNMSM), con más de 30 años de experiencia profesional en los cargos de Jefe de Proyecto, Coordinador, Especialista e Investigador, en entidades públicas y privadas como Superintendencia del Mercado de Valores, Superintendencia de Banca, Seguros y AFP, ONPE, MEF, Municipalidades, Universidades, Ministerio de Cultura, Apoyo Consultoría S.A., entre otras. Posee experiencia en monitoreo y asistencia técnica en gestión de inversiones públicas dentro del marco del SNIP e Invierte.pe al gobierno nacional y los regionales y locales de proyectos de infraestructura de riego y productivos, fortalecimiento institucional, salud, saneamiento, educación universitaria y básica regular, patrimonio cultural y desarrollo urbano; así como, monitoreo y asistencia de la ejecución de proyectos bajo el mecanismo “Obras x Impuestos” y Asociación Público Privadas; clasificación de riesgo de inversiones; regulación y supervisión de fondos institucionales (pensiones y colectivos) así como a sus administradoras. Docente de los Programas de Maestría relacionados con la gestión de proyectos de inversión en las universidades: Universidad Nacional de San Cristóbal de Huamanga UUNSCH), EUCIM Business School y la Universidad San Martín de Porres (USMP), Pontificia Universidad Católica del Perú (PUCP), Universidad Nacional Federico Villarreal (UNFV) y Universidad Nacional Mayor de San Marcos (UNMSM).</p>
+            <p>Jefe de Proyectos del Centro para la Competitividad y el Desarrollo (CCD). MBA (ESAN) – Especialidad en Dirección Avanzada de Proyectos y Economista (UNMSM), con más de 30 años de experiencia profesional en los cargos de Jefe de Proyecto, Coordinador, Especialista e Investigador, en entidades públicas y privadas como Superintendencia del Mercado de Valores, Superintendencia de Banca, Seguros y AFP, ONPE, MEF, Municipalidades, Universidades, Ministerio de Cultura, Apoyo Consultoría S.A., entre otras. Posee experiencia en monitoreo y asistencia técnica en gestión de inversiones públicas dentro del marco del SNIP e Invierte.pe al gobierno nacional y los regionales y locales de proyectos de infraestructura de riego y productivos, fortalecimiento institucional, salud, saneamiento, educación universitaria y básica regular, patrimonio cultural y desarrollo urbano.</p>
+            <!--
+            <p> Jefe de Proyectos del Centro para la Competitividad y el Desarrollo (CCD). MBA (ESAN) – Especialidad en Dirección Avanzada de Proyectos y Economista (UNMSM), con más de 30 años de experiencia profesional en los cargos de Jefe de Proyecto, Coordinador, Especialista e Investigador, en entidades públicas y privadas como Superintendencia del Mercado de Valores, Superintendencia de Banca, Seguros y AFP, ONPE, MEF, Municipalidades, Universidades, Ministerio de Cultura, Apoyo Consultoría S.A., entre otras. Posee experiencia en monitoreo y asistencia técnica en gestión de inversiones públicas dentro del marco del SNIP e Invierte.pe al gobierno nacional y los regionales y locales de proyectos de infraestructura de riego y productivos, fortalecimiento institucional, salud, saneamiento, educación universitaria y básica regular, patrimonio cultural y desarrollo urbano; así como, monitoreo y asistencia de la ejecución de proyectos bajo el mecanismo “Obras x Impuestos” y Asociación Público Privadas; clasificación de riesgo de inversiones; regulación y supervisión de fondos institucionales (pensiones y colectivos) así como a sus administradoras. Docente de los Programas de Maestría relacionados con la gestión de proyectos de inversión en las universidades: Universidad Nacional de San Cristóbal de Huamanga UUNSCH), EUCIM Business School y la Universidad San Martín de Porres (USMP), Pontificia Universidad Católica del Perú (PUCP), Universidad Nacional Federico Villarreal (UNFV) y Universidad Nacional Mayor de San Marcos (UNMSM).</p>-->
             <ul class="list-inline">
               <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
               <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
@@ -653,6 +653,71 @@
       </div>
 
       <!-- teacher -->
+
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="{{asset('images/teachers/img_alvaro.jpg')}}" alt="teacher" height="270px">
+          <div class="card-body">
+            <a href="teacher-single.html">
+              <h4 class="card-title">Álvaro Orozco</h4>
+            </a>
+            <p>Consultor del Centro para la Competitividad y el Desarrollo (CCD). Jefe de proyectos en competitividad y desarrollo del CCD. Experiencia en asesoría y asistencia técnica en competitividad de países, regiones y sectores productivos. Especialista en estudios económicos y análisis sectorial en proyectos de inversión para la mejora de la competitividad de las regiones. Ha elaborado indicadores de competitividad y desarrollo, así como la recopilación, procesamiento y la elaboración de información cuantitativa y de matriz de riesgos. Alta experiencia en la elaboración de líneas de base y planes de competitividad nacional, regional y sectorial. Ha trabajado como técnico estadístico en el Instituto Nacional de Estadística e Informática (INEI). Master of Liberal Arts in Finance, Harvard University y Economista, Universidad San Martín de Porres (USMP).</p>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+      </div>
+
+
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="{{asset('images/teachers/img_katherine.jpg')}}" alt="teacher" height="270px">
+          <div class="card-body">
+            <a href="teacher-single.html">
+              <h4 class="card-title">Katherine Piedra</h4>
+            </a>
+            <p>Jefe de proyectos en competitividad y desarrollo y en políticas públicas del Centro para la Competitividad y el Desarrollo (CCD). Realiza actividades profesionales como asesora y asistencia técnica en políticas, planes y proyectos sobre competitividad nacional, regional y sectorial. Ha elaborado modelos fiscales de mediano plazo y políticas públicas para países de Centroamérica, por encargo del Banco Interamericano de Desarrollo (BID). Maestría en Gestión y Políticas Públicas de la Universidad Católica del Perú y profesional en Ciencias Económicas de la Universidad San Martín de Porres (USMP).</p>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+      </div>
+
+
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="{{asset('images/teachers/img_gene.jpg')}}" alt="teacher" height="270px">
+          <div class="card-body">
+            <a href="teacher-single.html">
+              <h4 class="card-title">Gene Eduardo Olarte</h4>
+            </a>
+            <p>Consultor económico en promoción empresarial del Centro para la Competitividad y el Desarrollo (CCD). Desempeñó como funcionario de negocios y analista de resgos senior para la empresa de arrencamiento financiero Leasing Total SA. Cuenta con maestría en Economía en la mención de Finanzas y Mercado de Capitales de la Universidad Católica del Perú y profesional en Ciencias Económicas de la Universidad San Martín de Porres (USMP).</p>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+      </div>
       <br>
 
       <!-- teacher -->
