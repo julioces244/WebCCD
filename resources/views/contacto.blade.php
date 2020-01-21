@@ -43,12 +43,7 @@
       <div class="row no-gutters">
         <div class="col-lg-4 text-center text-lg-left">
           <a class="text-color mr-3" href="callto:+443003030266"><strong>Teléfono</strong> (01) 688-3302</a>
-          <ul class="list-inline d-inline">
-            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
-            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
-            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
-            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
-          </ul>
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>Celular o WhatsApp</strong> 941707779</a>
         </div>
 
         <div class="col-lg-8 text-center text-lg-right">
@@ -68,7 +63,7 @@
   <div class="navigation w-100">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light p-0">
-        <a class="navbar-brand" href="{{asset('inicio')}}"><img src="images/banner/logoccd.png" alt="logo" height="50px" width="70%"></a>
+        <a class="navbar-brand" href="{{asset('inicio')}}"><img src="images/banner/logoccd.png" alt="logo" height="50px" width="90%"></a>
         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -291,7 +286,7 @@
         <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
           <!-- logo -->
           <!--
-          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>-->
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/banner/logoccd.png" alt="logo"></a>-->
           <ul class="list-unstyled">
             <li class="mb-2 letra">Av. del Pinar 124, Urb. Chacarilla del Estanque, SANTIAGO DE SURCO, LIMA (Lima)</li>
             <li class="mb-2 letra"> (01) 688-3302</li>
@@ -300,70 +295,47 @@
         </div>
         <!-- company -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">COMPANY</h4>
+          <h4 class="text-white mb-5">CENTRO</h4>
           <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color letra" href="about.html">Nosotros</a></li>
-            <li class="mb-3"><a class="text-color letra" href="courses.html">Servicios</a></li>
-            <li class="mb-3"><a class="text-color letra" href="contact.html">Contacto</a></li>
+            <li class="mb-3"><a class="text-color letra" href="{{asset('nosotros')}}">Nosotros</a></li>
+            <li class="mb-3"><a class="text-color letra" href="{{asset('servicios')}}">Servicios</a></li>
+            <li class="mb-3"><a class="text-color letra" href="{{asset('experiencia')}}">Experiencia</a></li>
+            <!--
+            <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>-->
           </ul>
         </div>
         <!-- links -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">LINKS</h4>
+          <h4 class="text-white mb-5">INTRANET</h4>
           <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color letra" href="courses.html">Courses</a></li>
-            <li class="mb-3"><a class="text-color letra" href="event.html">Events</a></li>
-            <li class="mb-3"><a class="text-color letra" href="gallary.html">Gallary</a></li>
-            <li class="mb-3"><a class="text-color letra" href="faqs.html">FAQs</a></li>
+            <li class="mb-3"><a class="text-color letra" href="{{asset('miespacio')}}">Mi Espacio</a></li>
+
           </ul>
         </div>
         <!-- support -->
+
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">SUPPORT</h4>
+          <h4 class="text-white mb-5">CONTACTO</h4>
           <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color letra" href="#">Forums</a></li>
-            <li class="mb-3"><a class="text-color letra" href="#">Documentation</a></li>
-            <li class="mb-3"><a class="text-color letra" href="#">Language</a></li>
-            <li class="mb-3"><a class="text-color letra" href="#">Release Status</a></li>
+            <li class="mb-3"><a class="text-color letra" href="{{asset('contacto')}}">Contáctanos</a></li>
           </ul>
         </div>
         <!-- support -->
+        <!--
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5">RECOMMEND</h4>
           <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color letra" href="#">WordPress</a></li>
-            <li class="mb-3"><a class="text-color letra" href="#">LearnPress</a></li>
-            <li class="mb-3"><a class="text-color letra" href="#">WooCommerce</a></li>
-            <li class="mb-3"><a class="text-color letra" href="#">bbPress</a></li>
+            <li class="mb-3"><a class="text-color" href="#">WordPress</a></li>
+            <li class="mb-3"><a class="text-color" href="#">LearnPress</a></li>
+            <li class="mb-3"><a class="text-color" href="#">WooCommerce</a></li>
+            <li class="mb-3"><a class="text-color" href="#">bbPress</a></li>
           </ul>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
   <!-- copyright -->
-  <div class="copyright py-4 bg-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-7 text-sm-left text-center">
-          <ul>
-          <p class="mb-0 letra">Copyright
-            <script>
-              var CurrentYear = new Date().getFullYear()
-              document.write(CurrentYear)
-            </script>
-            © Theme By <a href="https://themefisher.com">themefisher.com</a></p></ul> <ul><p class="letra">. All Rights Reserved.</p> </ul>
-        </div>
-        <div class="col-sm-5 text-sm-right text-center">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/themefisher"><i class="ti-facebook text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.twitter.com/themefisher"><i class="ti-twitter-alt text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://dribbble.com/themefisher"><i class="ti-dribbble text-primary"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+
 </footer>
 <!-- /footer -->
 

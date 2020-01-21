@@ -11,13 +11,8 @@
     <div class="container">
       <div class="row no-gutters">
         <div class="col-lg-4 text-center text-lg-left">
-          <a class="text-color mr-3" href="callto:+443003030266"><strong>Teléfono</strong> 241-4273</a>
-          <ul class="list-inline d-inline">
-            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
-            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
-            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
-            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
-          </ul>
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>Teléfono</strong> (01) 688-3302</a>
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>Celular o WhatsApp</strong> 941707779</a>
         </div>
         <div class="col-lg-8 text-center text-lg-right">
           <ul class="list-inline">
@@ -26,8 +21,7 @@
             <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
             <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li>
             -->
-            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">Ingresar</a></li>
-            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">Registrarse</a></li>
+          
           </ul>
         </div>
       </div>
@@ -37,7 +31,7 @@
   <div class="navigation w-100">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light p-0">
-        <a class="navbar-brand" href="index.html"><img src="images/banner/logoccd.png" alt="logo" height="50px" width="70%"></a>
+        <a class="navbar-brand" href="index.html"><img src="{{asset('images/banner/logoccd.png')}}" alt="logo" height="50px" width="90%"></a>
         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,13 +40,13 @@
         <div class="collapse navbar-collapse" id="navigation">
           <ul class="navbar-nav ml-auto text-center">
             <li class="nav-item @@home">
-              <a class="nav-link" href="index.html">Inicio</a>
+              <a class="nav-link" href="{{asset('inicio')}}">Inicio</a>
             </li>
             <li class="nav-item @@about">
-              <a class="nav-link" href="about.html">Nosotros</a>
+              <a class="nav-link" href="{{asset('nosotros')}}">Nosotros</a>
             </li>
             <li class="nav-item @@courses">
-              <a class="nav-link" href="courses.html">Servicios</a>
+              <a class="nav-link" href="{{asset('servicios')}}">Servicios</a>
             </li>
             <!--
             <li class="nav-item @@events">
@@ -88,7 +82,7 @@
               <a class="nav-link" href="{{asset('miespacio')}}">Mi espacio</a>
             </li>
             <li class="nav-item @@contact">
-              <a class="nav-link" href="contact.html">Contacto</a>
+              <a class="nav-link" href="{{asset('contacto')}}">Contacto</a>
             </li>
             <li class="nav-item"><a class="nav-link">|</a></li>
 
@@ -178,12 +172,12 @@
 </div>
 
 <!-- page title -->
-<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+<section class="page-title-section overlay" data-background="{{asset('images/backgrounds/page-title.jpg')}}">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="courses.html">Nuestreos Servicios</a></li>
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="{{asset('servicios')}}">Nuestros Servicios</a></li>
           <li class="list-inline-item text-white h3 font-secondary nasted">Legal</li>
         </ul>
         <!--
@@ -200,7 +194,7 @@
     <div class="row">
       <div class="col-12 mb-4">
         <!-- course thumb -->
-        <img src="images/services/srv_leyes3.jpg" class="img-fluid w-100">
+        <img src="{{asset('images/services/srv_leyes3.jpg')}}" class="img-fluid w-100">
       </div>
     </div>
     <!-- course info -->

@@ -68,7 +68,6 @@
           <div class="page-main">
 
 
-<h1>{{$user->group->name}}</h1>
 
 
             @switch($user->group->name)
